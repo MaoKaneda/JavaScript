@@ -1,33 +1,48 @@
+/* 基本スタイル */
 body {
   font-size: 14px;
   color: #333;
   margin: 0 auto;
 }
+
+/* 見出しと段落のスタイル */
 h1,h2,h3,h4,h5,h6,p {
   padding: 10px 0;
   margin: 0;
 }
+
+/* リストの基本スタイル */
 ul,li {
   padding: 0;
   margin: 0;
 }
+
+/* ヘッダー部分のスタイル */
 header {
   height: 60px;
   display: flex;
   padding: 0 60px;
 }
+
+/* リストアイテムのスタイル */
 li{
   list-style: none;
   padding: 20px;
 }
+
+/* ヘッダー内のタイトル部分 */
 .heading {
   width: 50%;
   margin-left: 30px;
 }
+
+/* ナビゲーションバー */
 .navbar {
   width: 50%;
   position: relative;
 }
+
+/* ナビゲーションリスト */
 .nav-lists {
   margin: 0;
   padding: 0;
@@ -35,9 +50,13 @@ li{
   justify-content: space-around;
   list-style: none;
 }
+
+/* 赤色背景 */
 .red{
   background-color: red;
 }
+
+/* プルダウンメニューのスタイル */
 .show-lists{
   width: 200px;
   position: absolute;
@@ -50,30 +69,42 @@ li{
   list-style: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+/* 赤背景のボタン */
 .background-red{
   background-color: #FF0000;
   color: white;
   cursor: pointer;
 }
+
+/* プルダウンリストのアイテム */
 .pull-down-list{
   padding: 10px;
   cursor: pointer;
 }
+
+/* プルダウンリストのホバー効果 */
 .pull-down-list:hover {
   background-color: #f0f0f0;
 }
+
+/* メインコンテンツエリア */
 .contents{
   height: 100vh;
   background-color: #f0f0f0;
 }
+
+/* リストステータス表示 */
 .list-status{
   width: 230px;
 }
 
+/* 非表示クラス */
 .hidden{
   display: none;
 }
 
+/* ナビゲーションリストのアイテム */
 .nav-lists li {
   margin-right: 20px;
   padding: 10px;
